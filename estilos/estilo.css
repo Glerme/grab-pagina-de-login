@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4E5BEE;
+    font-family: Roboto;
+    /* width: 100vw;
+    height: 100vh; */
+    overflow: hidden;
+}
+
+fieldset {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F8F8F8;
+}
+
+p {
+    color: #F8F8F8;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    margin: 5rem auto;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 4rem;
+    padding: 2rem;
+}
+
+
+.formulario input {
+    width: 95%;
+    height: 2rem;
+    padding: .5rem;
+    border-radius: 1.5rem;
+    background-color: transparent;
+    border: 2px solid #F8F8F8;
+    color: #F8F8F8;
+    margin-bottom: 1rem;
+}
+
+.formulario ::placeholder {
+    color: #F8F8F8;
+}
+
+.container-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-top: 1rem;
+
+}
+
+.btn {
+    width: 100%;
+    height: 4rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: black;
+    text-transform: uppercase;
+    font-size: bold;
+    cursor: pointer;
+    background-color: #F8F8F8;
+    border-color: #F8F8F8;
+}
+
+.btn:hover {
+    background-color: #58358d;
+    border-color: #58358d;
+    color: white;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+    height: 1rem;
+
+}
+
+.container-footer a {
+    padding: 5px;
+}
+
+.container-footer a:hover {
+    border-bottom: 1px solid black;
+}
+
+
+.direita img {
+    display: none;
+}
+
+
+@media(min-width:900px) {
+
+    body {
+        background-color: #F8F8F8;
+    }
+
+    #container {
+        margin: 0;
+    }
+
+    .esquerda {
+        float: left;
+        width: 50vw;
+        height: 100%;
+        background-color: #4E5BEE;
+    }
+
+    .logo img {
+        margin-top: 80px;
+        width: 20vw;
+    }
+
+    .direita img {
+        display: flex;
+        float: left;
+        width: 50%;
+        height: 100%;
+        margin-top: 5rem;
+
+
+    }
+
+
+
+
+}
