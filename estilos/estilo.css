@@ -70,6 +70,10 @@ p {
     margin-bottom: 1rem;
 }
 
+.formulario input.erro {
+    border: red 2px solid;
+}
+
 .formulario ::placeholder {
     color: #F8F8F8;
 }
@@ -155,10 +159,12 @@ p {
         height: 100%;
         margin-top: 5rem;
 
-
     }
 
+}
 
-
-
+@media (max-width: 900px) {
+    body {
+        overflow-y: visible;
+    }
 }
